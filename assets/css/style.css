@@ -17,8 +17,19 @@ body{
 .h1{
     background-color: var(--primary_color);
     border-radius: 10px;
-    overflow: hidden ;
-    height: 30px;
+    overflow: hidden ;  
+  }
+  
+.h1 img{
+  height: 30px;
+  width: 30px;
+}
+.h2{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  
 }
 .container-1{
     background-color: var(--primary_color);
@@ -46,6 +57,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 40px;
+
 }
 .c-22{
     width: 100%;
@@ -197,11 +209,20 @@ form.grid-2>textarea{
 /* *{outline: solid 2px} */
 
 @media (max-width: 1000px) {
+  
   .container-1{
     display: block;
+    text-align:center;
+  }
+  .c2{
+    text-align: center;
   }
   .container-2{
     display:block;
+    
+  }
+  .c-22{
+    text-align: center;
   }
   .container-3{
     display:block;
@@ -209,6 +230,23 @@ form.grid-2>textarea{
   .container-5{
     grid-template-columns: repeat(2, 1fr);
   }
+  .container-7{
+    display: block;
+  }
+  .c-7{
+    text-align: center;
+  }
+  .h2{
+    display: none;
+  }
+  .h1 img{
+    height: 200px;
+    width: 200px;
+  }
+  .header{
+    height: 200px;
+  }
+  
 }
 @media (max-width: 600px) {
   
