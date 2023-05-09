@@ -29,8 +29,9 @@ body{
   display: flex;
   flex-direction: row;
   gap: 50px;
-
-  
+}
+.menu-icon{
+  display: none;
 }
 .container-1{
     background-color: var(--primary_color);
@@ -255,6 +256,9 @@ form.grid-2>textarea{
   }
   .header{
     height: 200px;
+  }
+  .menu-icon{
+    display: block;
   }
   
 }
