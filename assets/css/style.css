@@ -128,10 +128,19 @@ padding: 50px;
   font-size: 23px;
   text-align: center;
   border-radius: 10px;
-  padding: 10px;
+  overflow: hidden;
 }
 .con-five-1 img{
   width: 100%;
+  
+}
+.cart{
+  padding: 15px;
+  background-color: var(--secondary_color);
+  color: white;
+}
+.con-padding{
+  padding: 15px;
 }
 .container-6{
   background-color:white;
